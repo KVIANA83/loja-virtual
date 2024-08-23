@@ -191,3 +191,201 @@ footer {
 footer p {
   color: #fff;
 }
+
+/* Seção de Login */
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 60px); /* Ajusta a altura para compensar o cabeçalho fixo */
+  padding: 20px;
+  background-color: #f1f1f1; /* Cor de fundo da seção de login */
+}
+
+.login form {
+  background-color: #fff;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px #f4606720; /* Sombra ao redor do formulário */
+  padding: 20px;
+  max-width: 400px; /* Largura máxima do formulário */
+  width: 100%; /* Largura total até a largura máxima */
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login .form-label {
+  font-weight: bold;
+}
+
+/* Estilização dos inputs */
+.login form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilização do foco dos inputs */
+.login form input:focus {
+  border-color: #ff9298; /* Cor da borda ao focar */
+  outline: none; /* Remove a borda padrão do navegador */
+  box-shadow: 0 0 5px #ff9298; /* Intensifica a cor da sombra ao focar */
+}
+
+
+.login .btn-cadastro {
+  background-color: #ff9298;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login .btn-cadastro:hover {
+  background-color: #f46067;
+}
+
+.login a {
+  color: #ff9298;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+/* Recuperar Senha Section */
+.recover-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.recover-password .container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.recover-password .titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.recover-password p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.recover-password form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.recover-password form input:focus {
+  border-color: #ff9298; /* Cor da borda ao focar */
+  box-shadow: 0 0 5px rgba(255, 146, 152, 0.5); /* Intensifica a sombra rosa ao focar */
+  outline: none;
+}
+
+.recover-password .btn-recover input[type="submit"] {
+  background-color: #ff9298;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.recover-password .btn-recover input[type="submit"]:hover {
+  background-color: #f46067;
+}
+
+.recover-password .link-login {
+  margin-top: 20px;
+}
+
+.recover-password .link-login a {
+  color: #ff9298;
+  text-decoration: none;
+}
+
+.recover-password .link-login a:hover {
+  text-decoration: underline;
+}
+
+/* Cadastro Section */
+.cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.cadastro .container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f4606730;
+}
+
+.cadastro .titulo {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+.cadastro .form-label {
+  font-weight: bold;
+}
+
+.cadastro form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cadastro form input:focus {
+  border-color: #ff9298; /* Cor da borda ao focar */
+  box-shadow: 0 0 5px rgba(255, 146, 152, 0.5); /* Intensifica a sombra rosa ao focar */
+  outline: none;
+}
+
+.cadastro .btn {
+  background-color: #ff9298;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cadastro .btn:hover {
+  background-color: #f46067;
+}
