@@ -389,3 +389,27 @@ footer p {
 .cadastro .btn:hover {
   background-color: #f46067;
 }
+
+/* Efeito hover nas imagens */
+.card-img-top:hover {
+  box-shadow: 0 5px 15px #ccc; /* Adiciona uma sombra ao redor da imagem */
+  transform: scale(1.05); /* Aumenta um pouco a escala da imagem */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Efeito hover nos botões */
+.btn-primary:hover {
+  background-color: #fff;
+  color: #f4606750; /* Muda a cor de texto do botão ao passar o mouse */
+  box-shadow: 0 4px 12px #f46067; /* Adiciona uma sombra ao botão */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
+}
+
+/* Estilização do preço dos produtos */
+.card-price {
+  font-size: 1.2rem;
+  color: #ff9298; /* Cor do preço */
+  font-weight: bold;
+  margin-top: 10px;
+}
+
