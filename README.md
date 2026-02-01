@@ -1,4 +1,4 @@
-# 🛍️ Moda Estação – Moda Feminina
+# 🛍️ Loja Virtual Moda Estação – Moda Feminina
 
 É uma loja virtual voltada para o público feminino, criada com o objetivo de oferecer roupas, calçados e acessórios alinhados às tendências da estação. O projeto busca unir estilo, praticidade e uma experiência de navegação simples e agradável, valorizando a identidade feminina e a facilidade de compra no ambiente digital.
 
