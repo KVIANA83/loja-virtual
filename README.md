@@ -61,3 +61,4 @@ Desenvolvedora em formação, com foco em desenvolvimento web e melhoria contín
 
 📎 Este projeto faz parte do meu **portfólio pessoal**, representando minha evolução técnica e dedicação ao aprendizado contínuo.
 
+## Visualizar Projeto [Github Pages](https://kviana83.github.io/loja-virtual/)
